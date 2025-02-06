@@ -121,22 +121,28 @@
 // export default Body;
 
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { shoesData } from '../utils/shoesData';
 import { Link } from 'react-router-dom';
 import HeroBanner from './HeroBanner';
-
+import { useState } from 'react';
+import Search from './Search';
 const Body = () => {
+   const [filteredResult, setFilteredResults]=useState(shoesData);
+
+   const handleSearchResults=(filteredData)=>{
+            setFilteredResults(filteredData)
+   }
   return (
     <div>
       {/* Hero Banner placed at the top */}
       <HeroBanner />
-
+      <Search onSearchResults={handleSearchResults}/>
       {/* Container for shoe cards */}
       <div className="max-w-screen-xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         {/* Responsive grid: 1 column on small, 2 on sm, 3 on md, 4 on lg screens */}
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {shoesData.map((shoe) => {
+          {filteredResult.map((shoe) => {
             // Parse the price (assumed to be a number or numeric string)
             console.log(shoe.price);
             console.log(shoe.discount)
