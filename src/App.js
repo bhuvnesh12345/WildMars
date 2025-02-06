@@ -14,6 +14,7 @@ import BuyNowPage from './components/Buynow'
 import Login from './utils/Login';
 import UserProviderWrapper from './utils/UserProviderWrapper';
 import ScrollToTop from './utils/ScrollToTop';
+import { Analytics } from '@vercel/analytics/react';
 
 const Hello=()=><div>Welcome</div>
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <UserProviderWrapper>
      <Header/>
      <ScrollToTop/>
+     <Analytics/>
       <Routes>
         <Route path="/" element={<Body/>}/>
         <Route path="/about" element={<About/>}/>
