@@ -19,7 +19,7 @@ const Search = ({ onSearchResults }) => {
           placeholder="Search for sneakers, loafers, boots, etc."
           value={searchTerm}
           onChange={handleSearch}
-          className="w-full max-w-lg py-3 pl-12 pr-4 rounded-xl text-lg bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300 ease-in-out shadow-md"
+          className="w-full max-w-lg py-3 pl-12 pr-4 rounded-xl text-lg bg-gradient-to-r from-red-500 via-purple-500 to-pink-500 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300 ease-in-out shadow-md"
         />
         <svg
           xmlns="http://www.w3.org/2000/svg"
