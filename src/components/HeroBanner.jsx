@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const HeroBanner = () => {
-  // const handle=()=>{
+  const handle=()=>{
   //   const section=document.getElementById("leather-products");
   //   if(section)
   //   {
