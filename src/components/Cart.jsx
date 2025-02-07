@@ -257,16 +257,16 @@ const Cart = () => {
               {cart.map((item, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
                   <img
-                    src={item.image}
-                    alt={item.name}
+                    src={item?.image}
+                    alt={item?.name}
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-4">
                     <h3 className="text-xl font-bold text-gray-900 truncate">
-                      {item.name}
+                      {item?.name}
                     </h3>
-                    <p className="text-gray-600">{item.type}</p>
-                    <p className="mt-2 font-semibold text-blue-600">₹{item.finalPrice}</p>
+                    <p className="text-gray-600">{item?.type}</p>
+                    <p className="mt-2 font-semibold text-blue-600">₹{item?.finalPrice}</p>
                   </div>
                   <div className="flex justify-between items-center p-4 border-t">
                     <Link to={"/buynow/"+ item?.id}>
