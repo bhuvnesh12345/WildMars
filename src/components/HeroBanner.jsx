@@ -2,11 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const HeroBanner = () => {
-  const handle=()=>{
-    const section=document.getElementById("leather-products");
-    if(section)
-    {
-      section.scrollIntoView({behavior:"smooth"})
+  // const handle=()=>{
+  //   const section=document.getElementById("leather-products");
+  //   if(section)
+  //   {
+  //     section.scrollIntoView({behavior:"smooth"})
+  //   }
+  const section = document.getElementById("leather-products");
+    if (section) {
+        const navbarHeight = document.querySelector("nav").offsetHeight; // Get header height
+        const sectionPosition = section.offsetTop - navbarHeight - 20; // Offset by navbar height + extra spacing
+        window.scrollTo({ top: sectionPosition, behavior: "smooth" });
     }
   }
   return (
