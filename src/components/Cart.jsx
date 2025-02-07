@@ -266,7 +266,7 @@ const Cart = () => {
                       {item.name}
                     </h3>
                     <p className="text-gray-600">{item.type}</p>
-                    <p className="mt-2 font-semibold text-blue-600">₹{item.price}</p>
+                    <p className="mt-2 font-semibold text-blue-600">₹{item.finalPrice}</p>
                   </div>
                   <div className="flex justify-between items-center p-4 border-t">
                     <Link to={"/buynow/"+ item?.id}>
