@@ -47,7 +47,7 @@ const originalShoesData = [
     { id: 45, name: "Genuine Leather", price: "1500 Rs", image: "/shoes/IMG-20241219-WA0047.jpg", type: "loafers" },
     { id: 46, name: "Genuine Leather", price: "1600 Rs", image: "/shoes/IMG-20241219-WA0048.jpg", type: "boots" },
     { id: 47, name: "Genuine Leather", price: "1700 Rs", image: "/shoes/IMG-20241219-WA0049.jpg", type: "sneakers" },
-    { id: 49, name: "Genuine Leather", price: "1900 Rs", image: "/shoes/IMG-20241219-WA0051.jpg", type: "casual" },
+    { id: 48, name: "Genuine Leather", price: "1900 Rs", image: "/shoes/IMG-20241219-WA0051.jpg", type: "casual" },
   ];
   
 
