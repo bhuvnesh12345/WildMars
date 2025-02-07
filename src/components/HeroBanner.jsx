@@ -2,6 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const HeroBanner = () => {
+  const handle=()=>{
+    const section=document.getElementById("leather-products");
+    if(section)
+    {
+      section.scrollIntoView({behavior:"smooth"})
+    }
+  }
   return (
     <section
       className="relative bg-cover bg-center h-[70vh] flex items-center justify-center"
@@ -25,7 +32,9 @@ const HeroBanner = () => {
           to="/"
           className="mt-8 inline-block bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-8 rounded-md transition duration-300"
         >
+          <button onClick={handle}>
           Shop Now
+        </button>
         </Link>
       </div>
     </section>
