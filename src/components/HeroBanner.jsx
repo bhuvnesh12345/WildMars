@@ -11,7 +11,7 @@ const HeroBanner = () => {
   const section = document.getElementById("leather-products");
     if (section) {
         const navbarHeight = document.querySelector("nav").offsetHeight; // Get header height
-        const sectionPosition = section.offsetTop - navbarHeight ; // Offset by navbar height + extra spacing
+        const sectionPosition = section.offsetTop - navbarHeight-20 ; // Offset by navbar height + extra spacing
         window.scrollTo({ top: sectionPosition, behavior: "smooth" });
     }
   }
