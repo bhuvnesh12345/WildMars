@@ -231,9 +231,9 @@ const BuyNowPage = () => {
   // Set initial form state including product info and customer details
   const [formData, setFormData] = useState({
     productId: id,
-    productName: product.name || '',
-    productType: product.type || '',
-    rupees: product.finalPrice || '',
+    productName: product?.name || '',
+    productType: product?.type || '',
+    rupees: product?.finalPrice || '',
     quantity: '',
     size: '',
     deliveryDate: '',
