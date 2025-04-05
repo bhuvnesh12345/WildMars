@@ -248,7 +248,7 @@ const About = () => {
             {/* Member Card */}
             {[
               {
-                name: "Mrs. Anita Bhadoriya & MR. Rohit Gupta",
+                name: "Mrs. Anita Bhadoriya & Mr. Rohit Gupta",
                 position: "MD & CEO",
                 img: "",
               },
