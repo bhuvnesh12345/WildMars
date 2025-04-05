@@ -250,22 +250,22 @@ const About = () => {
               {
                 name: "Mrs. Anita Bhadoriya & MR. Rohit Gupta",
                 position: "MD & CEO",
-                img: "https://randomuser.me/api/portraits/men/32.jpg",
+                img: "",
               },
               {
                 name: "Mr. Sandeep Goswami",
                 position: "Quality & Production Head",
-                img: "https://randomuser.me/api/portraits/women/65.jpg",
+                img: "",
               },
               {
                 name: "Mr. Amit Bhadoriya",
                 position: "Marketing & Sales Head",
-                img: "https://randomuser.me/api/portraits/men/46.jpg",
+                img: "",
               },
               {
                 name: "Ms. Shalini Bhadoriya & Bhanu Pratap Singh",
                 position: "Public Relations Head",
-                img: "https://randomuser.me/api/portraits/women/74.jpg",
+                img: "",
               },
             ].map((member, index) => (
               <div
@@ -274,7 +274,7 @@ const About = () => {
               >
                 <img
                   src={member.img}
-                  alt={member.name}
+                 
                   className="w-24 h-24 mx-auto rounded-full object-cover mb-4"
                 />
                 <h3 className="text-lg font-semibold text-gray-900">
