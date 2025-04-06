@@ -268,7 +268,7 @@ const About = () => {
                 img: "",
               },
               {
-                name: "Mrs. Shalini Bhadoriya & Bhanu Pratap Singh",
+                name: "Mrs. Shalini Bhadoriya & Mr. Bhanu Pratap Singh",
                 position: "Public Relations Head",
                 img: "",
               },
