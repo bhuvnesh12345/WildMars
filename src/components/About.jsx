@@ -248,8 +248,13 @@ const About = () => {
             {/* Member Card */}
             {[
               {
-                name: "Mrs. Anita Bhadoriya & Mr. Rohit Gupta",
-                position: "MD & CEO",
+                name: "Mrs. Anita Bhadoriya",
+                position: "MD",
+                img: "",
+              },
+      {
+                name: "Mr. Rohit Gupta",
+                position: "CEO",
                 img: "",
               },
               {
@@ -263,7 +268,7 @@ const About = () => {
                 img: "",
               },
               {
-                name: "Ms. Shalini Bhadoriya & Bhanu Pratap Singh",
+                name: "Mrs. Shalini Bhadoriya & Bhanu Pratap Singh",
                 position: "Public Relations Head",
                 img: "",
               },
