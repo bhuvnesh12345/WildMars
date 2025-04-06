@@ -277,11 +277,7 @@ const About = () => {
                 key={index}
                 className="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-300 p-6 text-center"
               >
-                <img
-                  src={member.img}
-                 
-                  className="w-24 h-24 mx-auto rounded-full object-cover mb-4"
-                />
+               
                 <h3 className="text-lg font-semibold text-gray-900">
                   {member.name}
                 </h3>
